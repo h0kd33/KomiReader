@@ -1,0 +1,17 @@
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.jsoup:jsoup:1.8.1'
+    compile 'com.google.code.gson:gson:2.3.1'
+    //compile files('/home/peter/java-libs/guava-18.0.jar')
+    testCompile 'junit:junit:4.12'
+    testCompile 'commons-validator:commons-validator:1.4.1'
+    compile 'com.google.re2j:re2j:1.0'
+    compile 'com.google.guava:guava:18.0'
+}
+
+//jar.dependsOn test

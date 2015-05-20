@@ -1,0 +1,51 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/bgcolor"
+    android:gravity="center"
+    android:hardwareAccelerated="true"
+    android:padding="0dp"
+    android:theme="@style/FullScreenDialogTheme"
+    tools:context="moe.komi.reader.PostImageDialogFragment">
+
+    <!--
+    <uk.co.senab.photoview.PhotoView
+        android:id="@+id/post_full_image"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:scaleType="centerInside" />
+    -->
+    <!--
+    <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+        android:id="@+id/post_full_image"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:scaleType="centerInside" />
+    -->
+    <WebView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/post_full_image_webview" />
+
+    <com.pnikosis.materialishprogress.ProgressWheel
+        android:id="@+id/image_progress"
+        style="@style/ImageProgress" />
+
+    <ImageButton
+        android:id="@+id/action_postimage_download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top"
+        android:alpha="0.5"
+        android:src="@drawable/ic_content_save_grey600_48dp"
+        android:visibility="invisible" />
+
+</FrameLayout>

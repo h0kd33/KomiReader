@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base">
+        <item name="colorAccent">#FFFFFF</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="MyMaterialDrawerTheme" parent="MaterialDrawerTheme.Light.TranslucentStatus">
+        <item name="colorPrimary">#800000</item>
+        <item name="colorPrimaryDark">#61101d</item>
+        <item name="drawerArrowStyle">@style/MyDrawerArrowStyle</item>
+    </style>
+
+    <style name="MyDrawerArrowStyle" parent="MaterialDrawer.DrawerArrowStyle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/white</item>
+    </style>
+
+    <!-- MaterialNavigationDrawer -->
+    <!--
+    <style name="NoHeaderLight" parent="MaterialNavigationDrawerTheme.Light.TranslucentKitKatStatusBar">
+        <item name="drawerType">@integer/DRAWERTYPE_NO_HEADER</item>
+        <item name="rippleBackport">true</item>
+        <item name="colorAccent">#FFFFFF</item>
+        <item name="colorPrimary">#800000</item>
+        <item name="colorPrimaryDark">#800000</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+    </style>
+    -->
+
+    <!-- http://stackoverflow.com/questions/26434504/how-to-implement-drawerarrowtoggle-from-android-appcompat-v7-21-library/26447144#26447144 -->
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="android:color">@android:color/white</item>
+    </style>
+
+    <style name="ButtonBar">
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:background">@android:drawable/bottom_bar</item>
+    </style>
+
+    <style name="ButtonBarButton" />
+
+    <style name="FullScreenDialogTheme" parent="android:Theme.Light.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="ThreadDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/push_left_in</item>
+        <item name="android:windowExitAnimation">@anim/push_right_out</item>
+    </style>
+
+    <style name="ImageDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/activity_open_scale</item>
+        <!--<item name="android:windowExitAnimation">@anim/activity_close_scale</item>-->
+    </style>
+
+    <style name="ImageProgress">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="matProg_barColor">@color/post_text_color</item>
+        <item name="matProg_progressIndeterminate">true</item>
+        <item name="matProg_circleRadius">50dp</item>
+        <item name="matProg_barWidth">8dp</item>
+    </style>
+
+    <style name="ToolbarSubtitle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+</resources>

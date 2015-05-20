@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:theme="@style/FullScreenDialogTheme">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:fadeScrollbars="false">
+
+        <ViewStub
+            android:id="@+id/stub_thread"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inflatedId="@+id/view_thread"
+            android:layout="@layout/view_thread" />
+    </ScrollView>
+
+    <ViewStub
+        android:id="@+id/stub_error"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inflatedId="@+id/view_error"
+        android:layout="@layout/fragment_error" />
+
+    <com.pnikosis.materialishprogress.ProgressWheel
+        android:id="@+id/thread_progress"
+        style="@style/ImageProgress" />
+
+</RelativeLayout>

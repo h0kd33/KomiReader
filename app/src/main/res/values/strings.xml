@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="download_path">KomiReader</string>
+
+    <string name="app_name">Komi Reader</string>
+    <string name="downlaod_gallery">下載的圖片</string>
+    <string name="menu_settings">Settings</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_src">SrcActivity</string>
+    <string name="title_activity_full_thread">回首頁</string>
+    <string name="loading_boards">讀取版面列表</string>
+    <string name="loading_thread">讀取文章列表</string>
+    <string name="expand_fullthread">展開回應</string>
+    <string name="posts">篇</string>
+    <string name="native_main_image">native_main_image</string>
+    <string name="learn_more">詳細內容</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+
+    <string name="error_message_title">發生錯誤了！</string>
+    <string name="error_message_exception">很抱歉，發生錯誤了！</string>
+    <string name="error_message_board_error">無法讀取版面</string>
+    <string name="error_message_not_connected">沒有網際網路連線</string>
+
+    <string name="refresh">重新整理</string>
+    <string name="nomore">已經沒有了</string>
+    <string name="next_page">下一頁</string>
+
+    <string name="boards_list">版面列表</string>
+    <string name="no_content">無本文</string>
+
+    <string name="thread_reminder_text">回應有 %d 篇被省略</string>
+
+    <string name="boards_json_url">https://cdn.rawgit.com/touhonoob/komica-boards-extractor/5d22de0354d12ff4b0408d7977a39abb8be1d9e8/boards.json</string>
+    <string name="title_activity_post_image">PostImageActivity</string>
+
+    <string name="post_no">No.%s</string>
+    <string name="post_name">無名</string>
+    <string name="post_id">ID:%s</string>
+    <string name="post_count">%d 回應</string>
+    <string name="page_divider">第 %s 頁</string>
+    <string name="page_title" formatted="false">%s / p.%d</string>
+
+    <string name="postimage_menu_download">下載</string>
+    <string name="postimage_download_message">下載圖片 %s</string>
+    <string name="postimage_downloadede_message">你已經下載過了</string>
+
+    <!-- Google Analytics -->
+    <string name="ga_galleryCategory">Gallery</string>
+    <string name="ga_galleryClickImage">ClickImage</string>
+    <string name="ga_galleryScrollTop">ScrollTop</string>
+    <string name="ga_boardCategory">Board</string>
+    <string name="ga_boardToolbarRefresh">ToolbarMenuRefresh</string>
+    <string name="ga_boardScrollTop">ScrollTop</string>
+    <string name="ga_postCategory">Post</string>
+    <string name="ga_postClickImage">ClickImage</string>
+    <string name="ga_postDownloadImage">DownloadImage</string>
+</resources>

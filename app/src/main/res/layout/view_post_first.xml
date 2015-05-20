@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<moe.komi.reader.PostViewFirst xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/post_first_bgcolor">
+
+    <FrameLayout
+        android:id="@+id/post_header_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+
+    <RelativeLayout
+        android:id="@+id/post_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/post_header_container"
+        android:paddingBottom="16sp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="24sp">
+
+        <uk.co.deanwild.flowtextview.FlowTextView
+            android:id="@+id/flowtext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:paddingBottom="8sp">
+
+            <!-- Dummy for Preventing Crashing -->
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/img_placeholder_250x250" />
+        </uk.co.deanwild.flowtextview.FlowTextView>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/flowtext"
+            android:layout_margin="0dp"
+            android:gravity="right|bottom"
+            android:padding="0dp">
+
+            <TextView
+                android:id="@+id/post_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="8sp"
+                android:text="@string/post_id"
+                android:textSize="@dimen/post_textsize"
+                android:textColor="@color/post_id" />
+
+            <TextView
+                android:id="@+id/post_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/post_id"
+                android:text="date"
+                android:textColor="@color/post_date" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</moe.komi.reader.PostViewFirst>

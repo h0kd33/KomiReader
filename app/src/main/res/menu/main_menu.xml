@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <!--
+    <item android:id="@+id/action_test"
+        android:title="測試按鈕"
+        android:orderInCategory="80"
+        android:icon="@android:drawable/ic_menu_edit"
+        app:showAsAction="ifRoom" />
+   -->
+</menu>

@@ -1,0 +1,30 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="reply_back_odd">#E7CFC0</color>
+    <color name="reply_back_even">#F0E0D6</color>
+	<color name="back_color">#E5E5E5</color>
+    <color name="divider">#E5E5E5</color>
+    <color name="page_divider">#9A9A9A</color>
+    <color name="bgcolor">#FCFCF0</color>
+
+    <color name="thread_reminder_background">#984d4d</color>
+    <color name="thread_reminder_text">#ffffff</color>
+
+    <color name="postheader_no_text">#ffffff</color>
+    <color name="postheader_no_bgcolor">#0E71B6</color>
+    <color name="postheader_replcy_count_text">#ffffff</color>
+    <color name="postheader_replcy_count_bgcolor">#579BCC</color>
+    <color name="postheader_id_text">#800000</color>
+    <color name="postheader_id_bgcolor">#fffde5</color>
+
+    <color name="post_status">#909090</color>
+    <color name="post_date">#909090</color>
+    <color name="post_id">#800000</color>
+    <color name="post_text_color">#800000</color>
+    <color name="post_bgcolor">#F0E0D6</color>
+    <color name="post_first_bgcolor">#fffde5</color>
+    <color name="post_blockquote">#95ab63</color>
+
+    <color name="welcome_bgcolor">#994d4d</color>
+</resources>

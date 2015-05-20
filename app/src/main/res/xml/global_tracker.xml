@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="TypographyDashes">
+    <integer name="ga_sessionTimeout">300</integer>
+
+    <bool name="ga_autoActivityTracking">true</bool>
+    <bool name="ga_enableAdvertisingIdCollection">true</bool>
+    <bool name="ga_enableExceptionReporting">true</bool>
+
+    <screenName name="moe.komi.reader.HomeFragment">
+        HomeFragment
+    </screenName>
+
+    <!--  The following value should be replaced with correct property id. -->
+    <string name="ga_trackingId">UA-25826093-3</string>
+</resources>
