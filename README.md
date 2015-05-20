@@ -1,6 +1,8 @@
 # KomiReader
 Android K島閱讀器
 
+[討論區](https://plus.google.com/communities/107250774654119424184)
+
 # APK
 - [Github](https://github.com/touhonoob/KomiReader/releases)
 - [Google Drive](https://drive.google.com/folderview?id=0BzdiLb7dHtdufmdMVnBaSzk1Ynd4N0g1UTMzdU04SW5BWVhLV3V1MV9Fa2pXQWVfeVRnVW8&usp=drive_web#list)
