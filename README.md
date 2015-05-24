@@ -1,5 +1,5 @@
 # KomiReader
-Android K島閱讀器
+Android Komica閱讀器
 
 [討論區](https://plus.google.com/communities/107250774654119424184)
 
