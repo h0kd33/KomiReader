@@ -1,4 +1,4 @@
-package moe.komi.reader;
+package moe.komi.reader.common;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;

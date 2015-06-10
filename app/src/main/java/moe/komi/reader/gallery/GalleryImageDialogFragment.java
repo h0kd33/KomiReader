@@ -1,4 +1,4 @@
-package moe.komi.reader;
+package moe.komi.reader.gallery;
 
 import android.app.DialogFragment;
 import android.os.Bundle;
@@ -15,6 +15,8 @@ import com.koushikdutta.async.future.FutureCallback;
 import com.koushikdutta.ion.Ion;
 import com.pnikosis.materialishprogress.ProgressWheel;
 
+import moe.komi.reader.MyApplication;
+import moe.komi.reader.R;
 import uk.co.senab.photoview.PhotoView;
 
 //TODO Merge with PostImageDialogFragment

@@ -1,4 +1,4 @@
-package moe.komi.reader;
+package moe.komi.reader.thread;
 
 import android.app.DialogFragment;
 import android.os.Bundle;
@@ -16,6 +16,7 @@ import moe.komi.crawler.scraper.Scraper;
 import moe.komi.crawler.scraper.ScraperException;
 
 import de.greenrobot.event.EventBus;
+import moe.komi.reader.R;
 
 public class ThreadDialogFragment extends DialogFragment {
 

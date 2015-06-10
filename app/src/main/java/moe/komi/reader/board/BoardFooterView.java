@@ -1,4 +1,4 @@
-package moe.komi.reader;
+package moe.komi.reader.board;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -8,6 +8,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import de.greenrobot.event.EventBus;
+import moe.komi.reader.R;
 
 public class BoardFooterView extends RelativeLayout {
 

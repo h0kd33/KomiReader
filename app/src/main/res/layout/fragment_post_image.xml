@@ -8,7 +8,7 @@
     android:hardwareAccelerated="true"
     android:padding="0dp"
     android:theme="@style/FullScreenDialogTheme"
-    tools:context="moe.komi.reader.PostImageDialogFragment">
+    tools:context="moe.komi.reader.thread.PostImageDialogFragment">
 
     <!--
     <uk.co.senab.photoview.PhotoView

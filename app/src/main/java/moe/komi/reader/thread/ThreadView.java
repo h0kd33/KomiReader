@@ -1,4 +1,4 @@
-package moe.komi.reader;
+package moe.komi.reader.thread;
 
 import android.content.Context;
 import android.support.v7.widget.CardView;
@@ -13,6 +13,8 @@ import moe.komi.crawler.Post;
 import moe.komi.crawler.Thread;
 
 import de.greenrobot.event.EventBus;
+import moe.komi.reader.R;
+import moe.komi.reader.board.BoardFragment;
 
 public class ThreadView extends CardView {
 

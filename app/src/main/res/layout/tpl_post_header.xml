@@ -6,7 +6,7 @@
     android:layout_alignParentTop="true"
     android:orientation="vertical">
 
-    <moe.komi.reader.PostViewFirstImageView
+    <moe.komi.reader.thread.PostViewFirstImageView
         android:id="@+id/post_image"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"

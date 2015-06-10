@@ -29,10 +29,6 @@ import com.mikepenz.materialdrawer.model.PrimaryDrawerItem;
 import com.mikepenz.materialdrawer.model.SectionDrawerItem;
 import com.mikepenz.materialdrawer.model.interfaces.IDrawerItem;
 
-import moe.komi.crawler.Board;
-import moe.komi.crawler.KomiCrawler;
-import moe.komi.crawler.KomiCrawlerException;
-
 import java.io.File;
 import java.io.Serializable;
 import java.net.MalformedURLException;
@@ -44,6 +40,11 @@ import de.greenrobot.event.EventBus;
 import de.greenrobot.event.SubscriberExceptionEvent;
 import hugo.weaving.DebugLog;
 import io.fabric.sdk.android.Fabric;
+import moe.komi.crawler.Board;
+import moe.komi.crawler.KomiCrawler;
+import moe.komi.crawler.KomiCrawlerException;
+import moe.komi.reader.board.BoardFragment;
+import moe.komi.reader.gallery.GalleryFragment;
 
 public class MainActivity
         extends Activity

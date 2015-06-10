@@ -1,4 +1,4 @@
-package moe.komi.reader;
+package moe.komi.reader.gallery;
 
 
 import android.app.DialogFragment;
@@ -20,6 +20,8 @@ import com.google.android.gms.analytics.Tracker;
 import com.koushikdutta.ion.Ion;
 
 import de.greenrobot.event.EventBus;
+import moe.komi.reader.MyApplication;
+import moe.komi.reader.R;
 
 //TODO 刪除圖片
 public class GalleryFragment extends Fragment {

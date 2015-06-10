@@ -1,4 +1,4 @@
-package moe.komi.reader;
+package moe.komi.reader.common;
 
 import android.app.ProgressDialog;
 import android.content.Context;

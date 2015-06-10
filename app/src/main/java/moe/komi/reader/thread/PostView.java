@@ -1,4 +1,4 @@
-package moe.komi.reader;
+package moe.komi.reader.thread;
 
 import android.app.Activity;
 import android.content.Context;
@@ -21,6 +21,9 @@ import com.koushikdutta.ion.Ion;
 import moe.komi.crawler.Post;
 
 import de.greenrobot.event.EventBus;
+import moe.komi.reader.MyApplication;
+import moe.komi.reader.R;
+import moe.komi.reader.board.BoardFragment;
 import uk.co.deanwild.flowtextview.FlowTextView;
 import uk.co.deanwild.flowtextview.listeners.OnLinkClickListener;
 

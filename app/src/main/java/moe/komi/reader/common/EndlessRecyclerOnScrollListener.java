@@ -1,4 +1,4 @@
-package moe.komi.reader;
+package moe.komi.reader.common;
 
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;

@@ -1,4 +1,4 @@
-package moe.komi.reader;
+package moe.komi.reader.board;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -20,17 +20,22 @@ import com.google.android.gms.analytics.Tracker;
 import com.koushikdutta.ion.Ion;
 import com.pnikosis.materialishprogress.ProgressWheel;
 
+import java.io.Serializable;
+import java.util.ArrayList;
+
+import de.greenrobot.event.EventBus;
 import moe.komi.crawler.Board;
 import moe.komi.crawler.KomiCrawler;
 import moe.komi.crawler.KomiCrawlerException;
 import moe.komi.crawler.Thread;
 import moe.komi.crawler.scraper.Scraper;
 import moe.komi.crawler.scraper.ScraperException;
-
-import java.io.Serializable;
-import java.util.ArrayList;
-
-import de.greenrobot.event.EventBus;
+import moe.komi.reader.MainActivity;
+import moe.komi.reader.MyApplication;
+import moe.komi.reader.OkHttpScraperAdapter;
+import moe.komi.reader.thread.PostImageDialogFragment;
+import moe.komi.reader.R;
+import moe.komi.reader.thread.ThreadDialogFragment;
 
 public class BoardFragment extends Fragment {
 

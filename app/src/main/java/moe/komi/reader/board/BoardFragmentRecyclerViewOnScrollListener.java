@@ -1,8 +1,9 @@
-package moe.komi.reader;
+package moe.komi.reader.board;
 
 import android.support.v7.widget.LinearLayoutManager;
 
 import de.greenrobot.event.EventBus;
+import moe.komi.reader.common.EndlessRecyclerOnScrollListener;
 
 public class BoardFragmentRecyclerViewOnScrollListener extends EndlessRecyclerOnScrollListener {
     public BoardFragmentRecyclerViewOnScrollListener(LinearLayoutManager linearLayoutManager) {

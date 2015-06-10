@@ -1,4 +1,4 @@
-package moe.komi.reader;
+package moe.komi.reader.board;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -7,13 +7,15 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import moe.komi.crawler.Board;
-import moe.komi.crawler.Post;
-import moe.komi.crawler.Thread;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
+
+import moe.komi.crawler.Board;
+import moe.komi.crawler.Post;
+import moe.komi.crawler.Thread;
+import moe.komi.reader.R;
+import moe.komi.reader.thread.ThreadView;
 
 public class BoardFragmentRecyclerViewAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 

@@ -1,4 +1,4 @@
-package moe.komi.reader;
+package moe.komi.reader.thread;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -6,6 +6,8 @@ import android.os.Build;
 import android.util.AttributeSet;
 
 import com.fmsirvent.ParallaxEverywhere.PEWImageView;
+
+import moe.komi.reader.R;
 
 /**
  * Created by peter on 3/2/15.

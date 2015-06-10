@@ -12,7 +12,7 @@ public class MyApplication extends Application {
 
     Tracker tracker;
 
-    synchronized Tracker getTracker() {
+    synchronized public Tracker getTracker() {
         if (tracker == null) {
             tracker = GoogleAnalytics.getInstance(this).newTracker(R.xml.global_tracker);
         }

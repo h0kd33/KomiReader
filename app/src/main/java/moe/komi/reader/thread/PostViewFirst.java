@@ -1,4 +1,4 @@
-package moe.komi.reader;
+package moe.komi.reader.thread;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -10,6 +10,7 @@ import android.widget.TextView;
 
 import moe.komi.crawler.*;
 
+import moe.komi.reader.R;
 import uk.co.deanwild.flowtextview.FlowTextView;
 
 public class PostViewFirst extends PostView {

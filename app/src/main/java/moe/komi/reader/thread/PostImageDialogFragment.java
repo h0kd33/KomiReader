@@ -1,4 +1,4 @@
-package moe.komi.reader;
+package moe.komi.reader.thread;
 
 import android.app.DialogFragment;
 import android.os.Bundle;
@@ -21,6 +21,9 @@ import com.pnikosis.materialishprogress.ProgressWheel;
 import java.io.File;
 
 import de.greenrobot.event.EventBus;
+import moe.komi.reader.MainActivity;
+import moe.komi.reader.MyApplication;
+import moe.komi.reader.R;
 
 public class PostImageDialogFragment extends DialogFragment {
 
@@ -114,7 +117,7 @@ public class PostImageDialogFragment extends DialogFragment {
         });
     }
 
-    static PostImageDialogFragment newInstance(String url) {
+    static public PostImageDialogFragment newInstance(String url) {
         PostImageDialogFragment f = new PostImageDialogFragment();
 
         // Supply num input as an argument.
