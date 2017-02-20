@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<moe.komi.reader.thread.PostViewFirst xmlns:android="http://schemas.android.com/apk/res/android"
+<moe.boards.reader.thread.PostViewFirst xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@color/post_first_bgcolor">
@@ -62,4 +62,4 @@
         </RelativeLayout>
     </RelativeLayout>
 
-</moe.komi.reader.thread.PostViewFirst>
+</moe.boards.reader.thread.PostViewFirst>

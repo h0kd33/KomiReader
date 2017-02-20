@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:layout_margin="0dp"
     android:padding="0dp"
-    tools:context="moe.komi.reader.board.BoardFragment">
+    tools:context="moe.boards.reader.board.BoardFragment">
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/threads_list"

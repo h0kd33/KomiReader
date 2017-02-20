@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="moe.komi.reader" >
+    package="moe.boards.reader" >
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -10,7 +10,7 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
     <application
-        android:name="moe.komi.reader.MyApplication"
+        android:name="moe.boards.reader.MyApplication"
         android:allowBackup="true"
         android:hardwareAccelerated="true"
         android:icon="@mipmap/ic_launcher"
@@ -18,7 +18,7 @@
         android:theme="@style/AppTheme"
         tools:replace="android:icon" >
         <activity
-            android:name="moe.komi.reader.MainActivity"
+            android:name="moe.boards.reader.MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/MyMaterialDrawerTheme" >

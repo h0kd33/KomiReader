@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<moe.komi.reader.board.BoardFooterView xmlns:android="http://schemas.android.com/apk/res/android"
+<moe.boards.reader.board.BoardFooterView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="90dp"
     android:layout_gravity="center|top"
@@ -41,4 +41,4 @@
         android:text="@string/nomore"
         android:textSize="@dimen/abc_text_size_large_material"
         android:visibility="gone" />
-</moe.komi.reader.board.BoardFooterView>
+</moe.boards.reader.board.BoardFooterView>

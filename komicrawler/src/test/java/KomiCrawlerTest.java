@@ -6,15 +6,15 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.ArrayList;
 
-import moe.komi.crawler.Board;
-import moe.komi.crawler.KomiCrawler;
-import moe.komi.crawler.KomiCrawlerException;
-import moe.komi.crawler.Post;
-import moe.komi.crawler.Sid;
-import moe.komi.crawler.Thread;
-import moe.komi.crawler.scraper.JsoupScraperAdapter;
-import moe.komi.crawler.scraper.Scraper;
-import moe.komi.crawler.scraper.ScraperException;
+import moe.boards.crawler.Board;
+import moe.boards.crawler.KomiCrawler;
+import moe.boards.crawler.KomiCrawlerException;
+import moe.boards.crawler.Post;
+import moe.boards.crawler.Sid;
+import moe.boards.crawler.Thread;
+import moe.boards.crawler.scraper.JsoupScraperAdapter;
+import moe.boards.crawler.scraper.Scraper;
+import moe.boards.crawler.scraper.ScraperException;
 
 /**
  * Tests for {@link KomiCrawler}.

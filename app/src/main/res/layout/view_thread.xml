@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<moe.komi.reader.thread.ThreadView
+<moe.boards.reader.thread.ThreadView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:card_view="http://schemas.android.com/apk/res-auto"
     card_view:cardCornerRadius="0dp"
@@ -19,4 +19,4 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"/>
 
-</moe.komi.reader.thread.ThreadView>
+</moe.boards.reader.thread.ThreadView>

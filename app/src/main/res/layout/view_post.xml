@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<moe.komi.reader.thread.PostView xmlns:android="http://schemas.android.com/apk/res/android"
+<moe.boards.reader.thread.PostView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@color/post_bgcolor"
@@ -15,7 +15,7 @@
         android:clickable="true"
         android:paddingBottom="8sp">
 
-        <moe.komi.reader.common.ScalingImageView
+        <moe.boards.reader.common.ScalingImageView
             android:id="@+id/post_image"
             android:layout_width="120dp"
             android:layout_height="wrap_content"
@@ -67,4 +67,4 @@
             android:textColor="@color/post_status" />
     </RelativeLayout>
 
-</moe.komi.reader.thread.PostView>
+</moe.boards.reader.thread.PostView>
