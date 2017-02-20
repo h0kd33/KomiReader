@@ -23,6 +23,7 @@ import android.widget.Toast;
 import com.crashlytics.android.Crashlytics;
 import com.google.android.gms.analytics.HitBuilders;
 import com.google.android.gms.analytics.Tracker;
+import com.google.firebase.analytics.FirebaseAnalytics;
 import com.koushikdutta.ion.Ion;
 import com.mikepenz.materialdrawer.Drawer;
 import com.mikepenz.materialdrawer.model.PrimaryDrawerItem;
@@ -39,7 +40,6 @@ import java.util.HashMap;
 import de.greenrobot.event.EventBus;
 import de.greenrobot.event.SubscriberExceptionEvent;
 import hugo.weaving.DebugLog;
-import io.fabric.sdk.android.Fabric;
 import moe.boards.crawler.Board;
 import moe.boards.crawler.KomiCrawler;
 import moe.boards.crawler.KomiCrawlerException;
@@ -274,16 +274,14 @@ public class MainActivity
 
     private ProgressDialog loadingProgressDialog;
 
+    private FirebaseAnalytics mFirebaseAnalytics;
+
     @DebugLog
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        // setup Fabric
-        final Fabric fabric = new Fabric.Builder(this)
-                .kits(Crashlytics.getInstance())
-                .build();
-        Fabric.with(fabric);
+        mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
 
         // setContentView
         setContentView(R.layout.activity_main);

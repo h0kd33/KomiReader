@@ -45,3 +45,4 @@ proguard/
 .signing/
 
 app/crashlytics.properties
+app/google-services.json
